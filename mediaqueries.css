@@ -1,0 +1,54 @@
+@media (max-width: 768px) {
+  body {
+    position: absolute;
+  }
+
+  #profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section__pic-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .section__pic-container img {
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+    transform: scale(3);
+  }
+
+  .section__equals {
+    display: none;
+  }
+
+  .title {
+    font-size: 42px;
+  }
+
+  .section__text {
+    margin-left: 0rem;
+  }
+
+  .section__text__p2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  #socials-container {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0rem;
+  }
+
+}
+
