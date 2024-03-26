@@ -1,13 +1,11 @@
 @media (max-width: 768px) {
-  body {
-    position: absolute;
-  }
 
   #profile {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: 0;
   }
 
   .section__pic-container {
@@ -20,6 +18,7 @@
   .section__pic-container img {
     width: 100px;
     height: auto;
+    max-height: 20vh;
     object-fit: contain;
     transform: scale(3);
   }
@@ -37,15 +36,17 @@
   }
 
   .section__text__p2 {
-    font-size: 18px;
-    margin-bottom: 20px;
+    display: none;
+  }
+
+  .section__text__p1 {
+    display: none;
   }
 
   #socials-container {
     font-size: 22px;
     display: flex;
     justify-content: center;
-    width: 100%;
     margin-bottom: 1rem;
     padding: 0rem;
   }
